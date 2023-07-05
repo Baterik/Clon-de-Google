@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    pad: 0;
+    font-size: 13px;
+    font-family: sans-serif;
+    background-image: url('https://princesitairene1.webcindario.com/music2.gif');
+    background-size: 10%;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-section{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a{
+    margin-right: 12px;
+    color: black;
+}
+.nav-right-section .menu-icon{
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+}
+
+nav .nav-right-section{
+    border-radius: 50px;
+    margin-left: 10px;
+}
+
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 430px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+main .main-logo img{
+    width: 400px;
+}
+
+main .main-input{
+    width: 525px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px solid #181818;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+main .main-input input{
+    width: 400px;
+    height: 25px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #9b9ea3;
+    border-color: #b8b8b8;
+}
+
+main .main-input .search-icon{
+    background-image: url('https://thenounproject.com/api/private/icons/50744/edit/?backgroundShape=SQUARE&backgroundShapeColor=%23000000&backgroundShapeOpacity=0&exportSize=752&flipX=false&flipY=false&foregroundColor=%23000000&foregroundOpacity=1&imageFormat=png&rotation=0');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;
+}
+
+main .main-input .micro-icon{
+    background-image: url('https://static.thenounproject.com/png/1213798-200.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 25px;
+    height: 25px;    
+}
+
+main .main-buttons{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-buttons div{
+    display: inline-block;
+}
+
+main .main-buttons button{
+    height: 30px;
+    background-color: #fcfcfc;
+    border: 0;
+    font-size: 14px;
+    border-radius: 7px;
+    padding: 0 15px;
+    margin-right: 15px;
+}
+main .main-buttons button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+}
+
+footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #d6d4d4;
+    border-top: 1px solid black;
+}
+
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+
+footer .footer-left{
+    justify-content: left;
+}
+
+footer .footer-right{
+    justify-content: right;
+}
+
+footer ul li a{
+    margin: 10px;
+    color: rgb(46, 46, 46);
+}
